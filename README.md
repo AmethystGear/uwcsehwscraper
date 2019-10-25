@@ -110,3 +110,6 @@ you can delete the log 1: stuff or any of the other useless data that comes in f
 
 if you run your main, you'll basically get the output of each of the test cases in sequential order. You can paste that output into a new file and compare it to the `out_HW[X] ([Assignment_Name]).txt` file made by the scraper. One easy way to compare files is to use the diff command in a terminal window (works on MacOS and linux). The syntax is `diff path-to-file-1 path-to-file-2`.
 For windows you can use `fc path-to-file-1 path-to-file-2` in Windows Command Prompt.
+
+
+Have a problem? Make an issue!
