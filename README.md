@@ -80,7 +80,8 @@ public class AssassinMain {
     .
     .
 ```
-now we can replace `Scanner console = new Scanner(System.in)` 
+now we can replace `Scanner console = new Scanner(System.in)`
+
 with `Scanner console = new Scanner(input.nextLine());`
 
 This shouldn't break any of the code, everything should still compile. However, we do need to add one more thing, and that is extra print statements. Before, you typed in the input and pressed enter. So now we have to tell the computer to do the same thing.
