@@ -107,3 +107,6 @@ one more thing... if your inputs look wrong, it's probably because you need to d
   log 9: dictionary.txt, SHOW_COUNT=false  23  42
 ```
 you can delete the log 1: stuff or any of the other useless data that comes in from the scraper. Just make sure you don't delete something important for the test case!
+
+if you run your main, you'll basically get the output of each of the test cases in sequential order. You can paste that output into a new file and compare it to the `out_HW[X] ([Assignment_Name]).txt` file made by the scraper. One easy way to compare files is to use the diff command in a terminal window (works on MacOS and linux). The syntax is `diff path-to-file-1 path-to-file-2`.
+For windows you can use `fc path-to-file-1 path-to-file-2` in Windows Command Prompt.
